@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'font-1';
+    src: url('./fonts/font-1.ttf');
+        font-weight: 600;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'font-2';
+    src: url('./fonts/font-2.ttf');
+        font-weight: 600;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'font-3';
+    src: url('./fonts/font-3.ttf');
+        font-weight: 600;
+        font-style: normal;
+}
+@font-face {
+    font-family: 'font-4';
+    src: 
+        url('./fonts/font4.otf');
+        font-weight: 600;
+        font-style: normal;
+}
+
+/*#container{
+    color:red;
+    font-family: 'font-2';
+}*/
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex: 1 2 auto;
+}
+
+
+.title{
+    display: flex;
+    color: aliceblue;
+    font-size: 35px;
+    text-shadow: 2px 2px 1px black;
+    text-align: center;
+    justify-content: center;
+    background-image: url('animals.jpg');
+    background-size:cover;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    background-color: peachpuff;
+}
+#links{
+    display: flex;
+    background-color: aquamarine;
+    height: 6rem;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+
+}
+
+button{
+    text-align: center;
+    background-color: darkgreen;
+    color: aliceblue;
+    font-weight: 800;
+    height: 50px;
+    width: 12rem;
+    margin-bottom: 1px;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 1px black;
+}
+#start-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#start-page .welcome{
+text-align: center;
+background-color: antiquewhite;
+width: 920px;
+padding: 20px;
+}
+.intro{
+    text-align:center;
+    background-color: aquamarine;
+    margin: 30px;
+}
+.welcome img{
+    margin: 10px;
+}
+.open{
+    margin: 30px;
+    text-align: center;
+    background-color: aquamarine;
+}
+.open p{
+    margin: 5px;
+}
+#menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+#sugestion{
+    font-size: 2rem;
+    max-height: 50px;
+    width: auto;
+    text-align: center;
+}
+
+#menu{
+    resize: both;
+    display: grid;
+    width: 920px;
+    grid-template-columns:repeat(auto-fill, minmax(350px, 1fr));
+    border: 1px solid red;
+    gap: 10px;
+    padding: 20px;
+    background-color: teal;
+}
+#menu > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 10px;
+    min-width: 250px;
+    max-width: 500px;
+    min-height: 200px;
+    resize: both;
+    border: 1px solid red;
+    background: linear-gradient(15deg, grey, white, grey, white);
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#menu > div > div{
+    border: 1px solid red;
+    margin: 10px;
+    max-width: 250px;
+    min-height: 100px;
+    text-overflow: clip;
+}
+#menu > div > div > p,h4{
+    margin: 5px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#adress{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 965px;
+    background-color: lightgreen;
+}
+.adress{
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 60%;
+    min-width: 350px;
+    min-height: 300px;
+    border: 1px solid red;
+    text-align: center;
+    background: wheat;
+    border-radius: 20px;
+    background: linear-gradient(15deg, grey, white, grey, white);
+}
+.adress p{
+    max-width: 300px;
+    text-align: justify;
+    margin: 5px;
+}
+footer{
+    background-color: rgb(234, 230, 230);
+    font-size: 1.2rem;
+    padding: 20px;
+}
+#map{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#map img{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
