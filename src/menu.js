@@ -1,10 +1,10 @@
-import Breakfast from './breakfast.jpg';
-import Fish from './fishandchips.jpg';
-import Lamb from './lambribs.jpg';
-import Chiken from './chikenwings.jpg';
-import Pizza from './pizza.jpg';
-import Prowns from './prowns.jpg';
-import Wine from './wine1.jpg';
+import Breakfast from './pictures/breakfast.jpg';
+import Fish from './pictures/fishandchips.jpg';
+import Lamb from './pictures/lambribs.jpg';
+import Chiken from './pictures/chikenwings.jpg';
+import Pizza from './pictures/pizza.jpg';
+import Prowns from './pictures/prowns.jpg';
+import Wine from './pictures/wine1.jpg';
 
 export  default menu;
 

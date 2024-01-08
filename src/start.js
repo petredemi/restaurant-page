@@ -1,6 +1,6 @@
 
-import Restaurant from'./restaurant.jpg';
-import Restaurant1 from './restaurant1.jpg';
+import Restaurant from'./pictures/restaurant.jpg';
+import Restaurant1 from './pictures/restaurant1.jpg';
 export  {start, restaurant, startPage, footer};
 
 

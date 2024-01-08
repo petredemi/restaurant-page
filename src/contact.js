@@ -1,4 +1,4 @@
-import Map1 from './map.jpg';
+import Map1 from './pictures/map.jpg';
 export default contact;
 
 

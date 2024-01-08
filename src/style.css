@@ -40,13 +40,17 @@ body {
 
 .title{
     display: flex;
-    color: aliceblue;
+    color: rgb(244, 36, 36);
     font-size: 35px;
+    font-family: font-2;
     text-shadow: 2px 2px 1px black;
     text-align: center;
     justify-content: center;
-    background-image: url('animals.jpg');
+    background-image: url('./pictures/animals.jpg');
     background-size:cover;
+}
+.title > h1{
+    background-color: rgba(0, 0, 0, 0.446);
 }
 #content{
     display: flex;
@@ -87,6 +91,10 @@ text-align: center;
 background-color: antiquewhite;
 width: 920px;
 padding: 20px;
+}
+h2{
+    color: red;
+    font-family: font-1;
 }
 .intro{
     text-align:center;
@@ -141,10 +149,10 @@ padding: 20px;
     background: linear-gradient(15deg, grey, white, grey, white);
     border-radius: 20px;
     margin: 10px;
+    border-left: 15px solid orange;
 }
 
 #menu > div > div{
-    border: 1px solid red;
     margin: 10px;
     max-width: 250px;
     min-height: 100px;
