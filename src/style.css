@@ -154,10 +154,12 @@ h2{
 }
 
 #menu > div > div{
-    margin: 10px;
-    max-width: 250px;
+    margin: 5px;
+    max-width: 200px;
+    min-width: 100px;
     min-height: 100px;
     text-overflow: clip;
+    margin-right: 15px;
 }
 #menu > div > div > p,h4{
     margin: 5px;
