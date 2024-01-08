@@ -40,7 +40,7 @@ body {
 
 .title{
     display: flex;
-    color: rgb(244, 36, 36);
+    color: orange;
     font-size: 35px;
     font-family: font-2;
     text-shadow: 2px 2px 1px black;
@@ -119,8 +119,9 @@ h2{
     width: auto;
 }
 #sugestion{
-    font-size: 2rem;
+    font-size: 3rem;
     max-height: 50px;
+    font-family: font-3, 'Times New Roman', Times, serif;
     width: auto;
     text-align: center;
 }
