@@ -60,7 +60,7 @@ body {
 }
 #links{
     display: flex;
-    background-color: aquamarine;
+    background-color: darkorange;
     height: 6rem;
     align-items: end;
     justify-content: center;
@@ -97,9 +97,12 @@ h2{
     font-family: font-1;
 }
 .intro{
-    text-align:center;
-    background-color: aquamarine;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.528);
     margin: 30px;
+    max-width: 920px;
+    padding: 20px;
+    color: white;
 }
 .welcome img{
     margin: 10px;
@@ -107,7 +110,8 @@ h2{
 .open{
     margin: 30px;
     text-align: center;
-    background-color: aquamarine;
+    background-color: rgba(111, 215, 180, 0.816);
+    padding: 20px;
 }
 .open p{
     margin: 5px;
