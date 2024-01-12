@@ -56,7 +56,7 @@ body {
     display: flex;
     flex-direction: column;
     border: 1px solid red;
-    background-color: peachpuff;
+    background-color: rgb(159, 245, 255);
 }
 #links{
     display: flex;

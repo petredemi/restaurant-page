@@ -7,7 +7,7 @@ import contact from './contact.js';
 
 function component(){
 const content = document.createElement('div');
-      content.setAttribute('id', 'container');
+    content.setAttribute('id', 'container');
     return content;
 }
 document.body.appendChild(component());
