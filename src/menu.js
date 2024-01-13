@@ -76,7 +76,7 @@ function menu(){
     p3.textContent= 'fish: cod, hadock, halibut with chips, green pease, tartare sauce, lemon';
     p4.textContent= 'fresh baby lamb, rice, tzatziki sauce, hot pepper sauce, green salat';
     p5.textContent= 'BBQ or Buffalo chicken bites, accompanied with blue cheese and stalks of celery.';
-    p6.textContent= 'with different topics: ham, salami, chees,\n'
+    p6.textContent= 'with different topics: ham, salami, cheese,\n'
                     'sliced tomat, spinach, red peppers and sliced mushrooms.';
     p7.textContent= 'fride fresh prawns with lettuce, red onion, garlic, lemon and oliven oil';
     p8.textContent= 'enjoy drinks from around the world, wine, spirits, beer, soft drinks and coktails';

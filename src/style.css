@@ -43,7 +43,7 @@ body {
     color: orange;
     font-size: 35px;
     font-family: font-2;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 2px 2px 1px red;
     text-align: center;
     justify-content: center;
     background-image: url('./pictures/animals.jpg');
@@ -60,7 +60,7 @@ body {
 }
 #links{
     display: flex;
-    background-color: darkorange;
+    background-color: orange;
     height: 6rem;
     align-items: end;
     justify-content: center;
@@ -88,21 +88,24 @@ button{
 }
 #start-page .welcome{
 text-align: center;
-background-color: antiquewhite;
 width: 920px;
 padding: 20px;
+background-color:whitesmoke;
 }
 h2{
     color: red;
-    font-family: font-1;
+    font-family: font-4;
+    font-size: 2.5rem;
 }
 .intro{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.528);
+    text-align: justify;
+    font-size: 1.4rem;
+    background-color: rgba(0, 0, 0, 0.463);
     margin: 30px;
     max-width: 920px;
     padding: 20px;
     color: white;
+    text-shadow: 1px 1px 1px black;
 }
 .welcome img{
     margin: 10px;
